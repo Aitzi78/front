@@ -1,0 +1,11 @@
+@import "./base.scss";
+@import "./valoracion.scss";
+@import "./login.scss";
+@import "carrusel.scss";
+@import "home.scss";
+// main.scss
+
+// Importa el archivo slick.css desde el módulo slick-carousel
+@import '~slick-carousel/slick/slick.css';
+
+// Tu código SCSS adicional aquí

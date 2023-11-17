@@ -1,0 +1,71 @@
+.contenedor-login {
+    width: 80%;
+    max-width: 500px;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #524f4f;
+    text-align: center;
+  }
+  
+  .titulo-login {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color:whitesmoke;
+  }
+  
+  .login-usuario {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: whitesmoke;
+  }
+  .login-usuario:hover{
+    background-color:#e83911;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    
+  }
+  
+  .login-boton {
+    background-color: #686566;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .login-boton:hover {
+    background-color: #e83911;
+  }
+  
+  @media (max-width: 600px) {
+    .contenedor-login {
+      width: 90%; /* Ajustado el ancho para pantallas más pequeñas */
+      max-width: 100%; /* Ajustado el ancho máximo para pantallas más pequeñas */
+    }
+  
+    .titulo-login {
+      font-size: 20px; /* Ajustado el tamaño del título para pantallas más pequeñas */
+      margin-bottom: 12px; /* Ajustado el margen inferior para pantallas más pequeñas */
+    }
+  
+    .login-usuario,
+    .login-input {
+      margin-bottom: 16px; /* Ajustado el margen inferior para pantallas más pequeñas */
+    }
+  
+    .login-boton {
+      padding: 10px; /* Ajustado el padding para pantallas más pequeñas */
+    }
+  }

@@ -1,0 +1,100 @@
+.carrusel-contenedor{
+  width: 80%;
+}
+.slick-prev,
+.slick-next {
+  width: 80px; /* Ajusta el ancho según tus necesidades */
+  height: 40px; /* Ajusta la altura según tus necesidades */
+  background-color: rgb(199, 193, 193); /* Cambia el color de fondo según tus necesidades */
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  cursor: pointer
+}
+/* Carrusel.css */
+
+.carrusel_contenedor {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.carrusel_imagen_contenedor {
+  width: 100%;
+}
+
+.carrusel_imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordes redondeados para las imágenes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+}
+
+/* Estilos adicionales para el título */
+h1 {
+  color: #6a6868;
+  font-family: fantasy;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.boton-salir-carrusel {
+  width: 80px;
+  height: 40px;
+  
+  padding: 10px 20px;
+  font-size: 16px;
+  border: #3498db;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  box-shadow: 0 4px 6px rgba(73, 69, 69, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para los puntos indicadores del carrusel (dots) */
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #555;
+}
+
+
+
+  
+  
+  
+  
+  /* Otros estilos según tus necesidades */
+  @media (max-width: 600px) {
+    .slick-list {
+      max-width: 100%;
+    }
+  }

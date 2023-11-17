@@ -1,0 +1,74 @@
+.titulo-portada > img{
+    width: 100%;
+    height: auto;
+}
+
+.carta-pregunta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .titulo {
+    // Estilos para el título
+    color: grey;
+    font-size: 20px;
+  }
+  
+  
+  
+  .opcionContenedor {
+    // Estilos para el contenedor de cada opción
+    
+        // Estilos para el contenedor principal
+        
+    cursor: pointer; // Cambia el cursor al pasar sobre la opción
+    margin: 10px; // Margen entre opciones
+  }
+  
+  .imagen {
+    // Estilos para la imagen
+    max-width: 100%; // La imagen no excederá el ancho del contenedor
+    height: auto; // La altura se ajusta automáticamente
+  }
+  
+  .texto {
+    // Estilos para el texto
+    margin-top: 5px; // Margen superior para separar la imagen del texto
+  }
+  
+  .respuestaSeleccionada {
+    // Estilos para el mensaje de respuesta seleccionada
+    margin-top: 10px; // Margen superior para separar de las opciones
+    font-weight: bold; // Texto en negrita
+  }
+
+  .boton-navegacion {
+    // Estilos comunes para los botones de navegación
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .boton-anterior {
+    // Estilos específicos para el botón Anterior
+  }
+  
+  .boton-siguiente {
+    // Estilos específicos para el botón Siguiente
+  }
+  .imagen1 {
+    max-width: 100%; // Asegura que la imagen no se salga del contenedor
+    height: auto; // Mantiene la proporción original de la imagen
+    display: block; // Elimina el espacio extra debajo de la imagen
+    margin: 16px auto; // Centra la imagen y agrega un espacio en la parte superior e inferior
+    border-radius: 8px; // Añade bordes redondeados a la imagen si lo deseas
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Añade una sombra sutil a la imagen
+  }
+  
+  @media (max-width: 600px) {
+    .titulo {
+      font-size: 16px; /* Ajusta el tamaño del título para pantallas más pequeñas */
+    }
+  }

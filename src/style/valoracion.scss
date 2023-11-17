@@ -1,0 +1,63 @@
+
+.resultado-puntos {
+   
+  display: flex;
+  justify-content: center;
+  
+}
+
+.resultado-puntos > img {
+      height: 100%;
+      max-height: 400px;
+}
+
+   
+    // Estilos específicos para el título
+  .titulo-resultado{
+    color: grey; 
+    font-size: 24px; // Tamaño de fuente del título
+    margin-bottom: 8px; // Agrega espacio entre el título y el mensaje
+  }
+  .baja > img {
+    width: 100%;
+    max-width: 100px;
+  }
+  .media> img {
+    width: 100%;
+    max-width: 100px;
+  }
+  .alta > img {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  @media (max-width: 600px) {
+    .resultado-puntos > img {
+      max-height: 300px; /* Ajusta la altura máxima de la imagen para pantallas más pequeñas */
+    }
+  
+    .titulo-resultado {
+      font-size: 20px; /* Ajusta el tamaño del título para pantallas más pequeñas */
+    }
+  
+    .baja > img,
+    .media > img,
+    .alta > img {
+      max-width: 80px; /* Ajusta el ancho máximo de las imágenes para pantallas más pequeñas */
+    }
+  }
+  .boton-fotos-aviso {
+    width: 80px;
+    height: 40px;
+    margin-top: 400px;
+       padding: 10px 20px;
+    font-size: 16px;
+    border: #3498db;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0 4px 6px rgba(73, 69, 69, 0.1);
+    transition: background-color 0.3s ease;
+  }
